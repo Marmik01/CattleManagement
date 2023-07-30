@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="../cssPages/MainPage.css">
+</head>
+<body>
+    <header> 
+        <div class="container row">
+            <button class="nav-toggle" aria-label="open navigation">
+                <span class="hamburger"></span>
+            </button>
+            <a class="logo" href="#">
+                <img src="../LOGO.png" class="imgLogo" alt="Cute cow logo">
+            </a>
+            <nav class="nav">
+                <u class="nav__list nav__list--primary">
+                    <l class="nav__item"><a href="#" class="nav__link">Home</a></l>
+                    <l class="nav__item"><a href="#" class="nav__link">About</a></l>
+                    <l class="nav__item"><a href="#" class="nav__link">Contact</a></l>
+                    <l class="nav__item"><a href="#" class="nav__link">Contact</a></l>
+                    <l class="nav__item"><a href="#" class="nav__link">Contact</a></l>
+                </u>
+                <u class="nav__list nav__list--secondary">
+                    <l class="nav__item"><a href="#" class="nav__link">Signin</a></l>
+                    <l class="nav__item"><a href="#" class="nav__link nav__link--button">Signup</a></l>
+                </u>
+            </nav>
+        </div>
+    </header>
+
+    <!--  caraousal Images  -->
+    <!--  caraousal Images  -->
+    <!--  caraousal Images  -->
+    <!--  caraousal Images  -->
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 " style="height:87vh; image-rendering:auto;" src="../horizontal/hori9.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>
+                    “Cows have a secret mental life in which they bear grudges, nurture friendships, and become excited over intellectual challenges…”
+                </h5>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" style="height:87vh;"   src="../horizontal/hori10.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>“They are all individuals and all have their own characteristics. They are tremendously curious. They have emotional storms.”</h5>
+                
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" style="height:87vh;"  src="../horizontal/hori8.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Cow is the source of progress and prosperity.Cow protection is the gift of Hinduism to the world.The cow is the purest type of sub-human life.Cow protection means protection of the weak, the helpless… the deaf.</h5>
+              </div>
+          </div>
+        </div>
+      </div>
+
+
+        <script>
+                    const navToggle = document.querySelector('.nav-toggle');
+                    const nav = document.querySelector('.nav');
+                    navToggle.addEventListener('click', () => {
+                        nav.classList.toggle('nav--visible');
+                    })
+        </script>
+</body>
+</html>
