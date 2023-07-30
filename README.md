@@ -1,2 +1,0 @@
-# CattleManagement
-JAP,SHAIL,SAHIL,MITANSH
